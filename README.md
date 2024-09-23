@@ -5,8 +5,8 @@ Components
 1. Arithmetic Logic Unit (ALU)
 The ALU is responsible for executing operations dictated by the FSM and decoder. Inputs include A, B, OP, and Student ID, with the ALU performing operations based on the rising clock edge. The ALU outputs include:
 
-Neg: Triggers the 7-segment display for negative results.
-R1 and R2: Display the first and last 4 bits of the 8-bit result, respectively.
+  Neg: Triggers the 7-segment display for negative results.
+  R1 and R2: Display the first and last 4 bits of the 8-bit result, respectively.
 
 2. 7-Segment Display
 The 7-segment display converts binary input from the ALU into decimal and hexadecimal outputs, ranging from 0-15. It also displays negative values when necessary.
