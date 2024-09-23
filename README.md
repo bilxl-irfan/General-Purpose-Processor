@@ -23,9 +23,7 @@ The FSM cycles through 9 states (S0 to S8), controlling the processor’s operat
 ### 5. **Latches**
 Two D latches are used to store inputs A and B from the FPGA, passing their values on the clock’s positive edge to the processor.
 
+![image](https://github.com/user-attachments/assets/227b8df6-3225-45c3-999c-9a62eca11fa0)
+
 ## Summary
 This project successfully integrated all components to create a fully functional general-purpose processor. Each part contributed to the overall operation, enabling efficient data processing and output display.
-
----
-
-Feel free to fork, contribute, or raise issues as needed.
